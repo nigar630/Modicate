@@ -1,0 +1,1070 @@
+body{
+    margin: 0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+
+}
+/* Navbar started */
+.header-container nav .my-brand{
+    color: darkturquoise;
+}
+.header-container .navbar-brand{
+    font-size: 0.8em;
+}
+.header-container .my-disabled{
+    margin-left: 60px;
+}
+.header-container .my-disabled i{
+    margin: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+.header-container .store{
+    padding-left: 28px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.header-container .store .store-a{
+    color: white;
+}
+
+.header-container .my-chat{
+    margin-left: 60px;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    border:3px solid darkturquoise;
+}
+.header-container .my-chat i{
+    color: darkturquoise;
+}
+.header-container .usd{
+    margin-left: 20px;
+}
+.header-container .service{
+    margin-left: 80px;
+}
+.header-container .heart{
+    margin-left: 100px;
+}
+/* Header -container ended */
+.bigdivfirst{
+    width: 100%;
+    height: 600px;
+    background-image:url(https://livedemo00.template-help.com/wt_58434_v3/images/header-1.jpg);
+    /* background-1image:url(https://livedemo00.template-help.com/wt_58434_v3/images/header-3.jpg);
+    background-image:url(https://livedemo00.template-help.com/wt_58434_v3/images/header-4.jpg); */
+  position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+    }
+    .bigdivimg{
+    background-image:url(https://livedemo00.template-help.com/wt_58434_v3/images/header-3.jpg);
+    z-index: 5;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 1s linear;
+    }
+    .bigdivimg:hover{
+        opacity: 0;
+        transition: 0;
+    }
+/* Navbartwo-container started */
+
+.bigdivfirst .navtwo-container .sitename{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+.navtwo-container .home-shop{
+    margin-left: 5px;
+}
+.navtwo-container .home-shop span{
+    margin-left: 28px;
+}
+.navtwo-container{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+/* Navbar two ended */
+/* Jumbotron-container started */
+.jumbotron-container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.my-jumbotron{
+    position: absolute;
+    top:50px;
+    left: 340px;
+}
+
+.my-jumbotron h1{
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 4em;
+}
+.my-jumbotron .buynow{
+    width: 120px;
+    margin-right: 20px;
+}
+.my-jumbotron .viewfeauture {
+    width: 180px;
+}
+.my-jumbotron .buynow, .viewfeauture{
+    border-radius: 18px;
+}
+ .my-jumbotron {
+    background-color: transparent;
+}
+ .my-jumbotron .my-jumbotron-container{
+    text-align: center;
+}
+ .my-jumbotron .my-jumbotron-container .firstdesign{
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    line-height: 1px;
+}
+ .jumbotronslogan{
+     padding-top: 40px;
+     line-height: 18px;
+ }   
+.jumbotronslogan p{
+    font-size: 1.8em;
+}
+ .my-jumbotron .buttons{
+    display: flex;
+    justify-content: center;
+ padding-top: 40px;  
+}
+/* Jumbotron ended */
+/* What we offer started */
+.wwo{
+    width: 100%;
+    height: 300px;   
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.wwo h2{
+    font-size: 3em;
+    color: darkslategray;
+    
+}
+.wwo .wecreate{
+    padding-top: 0px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.wwo .wecreate p{
+    font-size: 1.4em;
+    line-height: 20px;
+    text-align: center;
+}
+.wwo .wecreate span{
+    color: darkcyan;
+}
+.imgcontainer{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+/* WWO container ended */
+/* Template container started */
+.template{
+    width: 100%;
+    height: 600px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.template h2{
+    padding-top: 80px;
+    font-size: 3em; 
+    color:  darkslategray;
+}
+.template .temfeat{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+    padding-top: 20px;
+    line-height: 20px;
+}
+.template .temfeat p{
+    text-align: center;
+    font-size: 1.2em;
+}
+.template .row{
+    margin-top: 40px;
+}
+.template .row i{
+    font-size: 4em;
+    color:darkturquoise;
+    padding-left: 20px;
+}
+.template .row h5{
+    font-size: 1.6em;
+}
+.template .row p{
+    padding-top: 40px;
+    font-size: 0.8em;
+    text-align:start;
+}
+.template .row .card{
+    background-color:whitesmoke;
+    border:none; 
+}
+/* Template-container ended */
+/* About us container started */
+.aboutuscontainer{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.aboutuscontainer .aboutus{
+    width: 35%;
+    height: auto;
+    /* background-color: brown; */
+    
+}
+.aboutuscontainer .aboutus h5{
+    font-size: 3em;
+}
+.aboutuscontainer .aboutus p{
+    font-size: 1.2em;
+    text-align: start;
+}
+.aboutuscontainer .progress-container{
+    width: 52%;
+    height: auto;
+    /* background-color: chocolate; */
+    padding-top: 30px;
+    padding-left: 100px;
+   
+}
+.aboutuscontainer .progpercent{
+    display: flex;
+    align-items: center;
+}
+.aboutuscontainer .my-progress{
+    width:440px;
+    height: 10px;
+}
+.aboutuscontainer .progress-container h4{
+    padding-top: 20px;
+    font-size: 1em;
+}
+.aboutuscontainer .progpercent span{
+    margin-left: 40px;
+}
+.aboutuscontainer .progpercent .my-progress .my-progress-bar{
+    background-image: linear-gradient(to right,fuchsia,darkturquoise)
+}
+.aboutuscontainer .progress-container h4,span{
+    color: lightgrey;
+}
+/* About us container ended */
+/* Score container started */
+.scorecontainer{
+    width: 100%;
+    height: 160px;
+    background-color:#002040;
+    display: flex;
+    justify-content: center;
+}
+.scorecontainer .score{
+    width: 87%;
+    height: 160px;
+    margin: auto;
+    background-color: #002040;
+    display: flex;
+    justify-content: center;
+}
+.scorecontainer .score .record{
+    width: 300px;
+    height: 160px;
+    border: 0.2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 64px;
+}
+.scorecontainer .score .record h5{
+    color: lightcyan;
+    font-size: 1.2em;
+}
+.scorecontainer .score .record span{
+    font-size: 4em;
+    color: white;
+}
+/* SCORE CONTAINER ENDED */
+/* image container started */
+.siximgcontainer{
+    width: 88%;
+    margin: auto;
+    height:auto;
+    /* height: 140px; */
+    /* background-color:brown; */
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.siximgcontainer img{
+    margin: 10px;
+}
+/* image container ended */
+
+/* lftblog container started */
+.lftblogcontainer{
+    width: 100%;
+    /* height: 800px; */
+    height: auto;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.lftblogcontainer span{
+     font-size: 3em;
+     color: rgb(3, 3, 46);
+     padding-top: 20px;     
+}
+.lftblogcontainer .my-lftb-card{
+    width: 400px;
+    height: 480px;
+    margin: 10px;
+}
+.lftblogcontainer .my-lftb-card p{
+    text-align: start;
+}
+.lftblogcontainer .my-lftb-card .calendar{
+    display:flex;
+    justify-content: space-between;
+
+}
+.lftblogcontainer .my-lftb-card i{
+    font-size: 1.2em;
+    color:lightgray;
+}
+.lftblogcontainer .calendar h3{
+    font-size:1em;
+    color: darkcyan;
+
+}
+.lftblogcontainer .calendar h4{
+    font-size: 1em;
+}
+/* lftblog container started */
+
+/* Subletter container started */
+.subletter{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subletter img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    position: relative;
+}
+.subletter .newsletter{
+    position: absolute;
+    text-align: center;
+}
+.subletter h2{
+    color: white;
+    font-size: 3.2em;
+}
+.subletter .plorem{
+    line-height: 20px;
+}
+.subletter .plorem p{
+    color: gray;
+    font-size: 1.2em;
+}
+.subletter .lettersbtn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.subletter .lettersbtn .btnone{
+    width: 340px;
+    margin-right: 140px;
+}
+.subletter .lettersbtn .btnone, .btntwo{
+    border-radius: 15px;
+    height: 44px;
+}
+.subletter .lettersbtn .btntwo{
+    width: 200px;
+}
+/* Subletter container ended */
+/* Testimonials container started */
+.testimonials{
+    width: 100%;
+    height: 800px;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.testimonials h3{
+    font-size: 3em;
+    color: #002040;
+}
+.testimonials .moni p{
+    line-height: 8px;
+    text-align:center;
+    font-size: 1.2em;
+
+}
+.testimonials .row {
+    width: 78%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.testimonials .row img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.testimonials .row .my-testim-card{
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* margin-right: 60px; */
+}
+.testimonials .row h5,p{
+    text-align: center;
+}
+/* Testimonials container ended */
+/* Footer container started */
+.footer{
+    width: 100%;
+    height: 280px;
+    /* background-color: darkseagreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer h4{
+    font-size:3em;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+}
+.footer .footeri i {
+    margin-right: 20px;
+    font-size:2em;
+    color: gray;
+}
+.footer .theend{
+    width:100%;
+    height: 100px;
+    /* background-color: wheat; */
+    text-align:center;
+    padding-top: 40px;
+}
+footer .footer .theend h5{
+    color: gray;
+    font-size:0.9em;
+}
+.footer .theend i{
+    transform: rotateX("60");
+}
+/* Footer container ended */
+
+/* For Tablet */
+@media screen and (max-width: 990px){
+    .header-container{
+        width: 100%;    
+    }
+    .header-container nav .my-brand{
+        color: darkturquoise;
+    }
+    .header-container .navbar-brand{
+        font-size: 0.8em;
+    }
+    .header-container .my-disabled{
+        margin-left: 5px;
+    }
+
+    /* Navtwo container started */
+    .bigdivfirst {
+        width: 109%;
+    }
+    .navtwo-container .home-shop span{
+        margin-left: 0px;
+        display: none;
+    }
+
+/* jumbotron container started */
+.jumbotron-container{
+    width: 109%;
+}
+.my-jumbotron{
+    left: 140px;
+}
+
+/* Jumbotron ended */
+   /* What we offer started */
+.wwo{
+    width: 109%;   
+}
+
+.wwo .wecreate p{
+    font-size: 1.2em;
+}
+
+.wwo .wecreate{
+    padding-top: 0px;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+}
+/* WWO container ended */
+
+/* Template container started */
+.template{
+    width: 109%;
+    height: 800px;
+}
+.template .row{
+    width: 80%;
+    margin-left: 90px;
+}
+.template .row p{
+    text-align: start;
+}
+/* Template-container ended */
+
+/* About us container started */
+.aboutuscontainer{
+    width: 109%;
+    height: 500px;
+    display: block;
+}
+.aboutuscontainer .aboutus{
+    width: 100%;
+    margin-left:20px;
+}
+.aboutuscontainer .progress-container{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+/* About us container ended */
+
+/* Score container started */
+.scorecontainer{
+    width: 109%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+.scorecontainer .score{
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.scorecontainer .score .record{
+    width: 300px;
+    height: 120px;
+    border: 0.2px solid darkblue;
+}
+/* SCORE CONTAINER ENDED */
+
+/* image container started */
+.siximgcontainer{
+    width: 109%;
+    margin: auto;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color:brown; */
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.siximgcontainer img{
+    margin: 10px;
+}
+/* image container ended */
+/* lftblog container started */
+.lftblogcontainer{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.lftblogcontainer span{
+     font-size: 3em;
+     color: rgb(3, 3, 46);
+     padding-top: 10px;     
+}
+.lftblogcontainer .row{
+    display: flex;
+    justify-content: center;
+}
+.lftblogcontainer .my-lftb-card p{
+    text-align: start;  
+}
+/* lftblog container started */
+/* Subletter container started */
+.subletter{
+    width: 109%;
+}
+.subletter img{
+    width: 109%;    
+}
+/* Subletter container ended */
+/* Testimonials container started */
+.testimonials{
+    width: 109%;
+    height: auto;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.testimonials .row {
+    width: 88%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+/* Testimonials container ended */
+/* Footer container started */
+.footer{
+    width: 109%;
+    height: auto;
+    /* background-color: darkseagreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .theend{
+    width:109%;
+    height: 60px;
+    /* background-color: wheat;  */
+    text-align:center;
+    padding-top: 10px;
+}
+/* Footer container ended */
+
+/* For Mobile */
+@media screen and (max-width: 550px){
+    .header-container{
+        width:109%;   
+    } 
+    /* Navtwo container started */
+    .bigdivfirst {
+        width: 109%;
+    }
+    .navtwo-container .home-shop span{
+        margin-left: 0px;
+        display: none;
+    }
+    .bigdivfirst{
+        width: 109%;
+        height: 480px;
+        }
+
+/* jumbotron container started */
+.jumbotron-container{
+    width: 109%;
+}
+
+.my-jumbotron{
+    left: 40px;
+}
+.my-jumbotron h1{
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 2em;
+}
+.my-jumbotron .my-jumbotron-container .web{
+    display: none;
+}
+.jumbotronslogan p{
+    display: none;
+}
+.my-jumbotron .my-jumbotron-container .wmod{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-jumbotron .buynow{
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+.my-jumbotron .buynow, .my-jumbotron .viewfeauture{
+    border-radius: 18px;
+    width: 200px;
+    background-color: aqua;
+}
+ .my-jumbotron .buttons{
+     width: 300px;
+     height: auto;
+     margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px; 
+    flex-wrap: wrap;
+}
+/* Jumbotron ended */
+/* What we offer started */
+.wwo{
+    width: 100%;
+    height: 300px;   
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.wwo h2{
+    font-size: 2em;    
+}
+.wwo .wecreate{
+    width: 300px;
+    height: auto;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+.wwo .wecreate p{
+    font-size: 1.2em;
+    line-height: 18px;
+    text-align: center;
+}
+.imgcontainer{
+    width: 109%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.imgcontainer img{
+    width: 100%;
+    height: auto;
+}
+/* WWO container ended */
+      /* Template container started */
+.template{
+    width: 109%;
+    height: auto;
+}
+.template h2{
+    padding-top: 80px;
+    font-size: 2em; 
+    color:  darkslategray;
+}
+.template .temfeat{
+    padding-top: 0px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+    line-height: 15px;
+    text-align: center;
+}
+.template .temfeat p{
+    text-align: center;
+    font-size: 1.2em;
+}
+.template .row{
+    width: 300px;
+    height:auto;
+    margin: auto;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    text-align: center;
+}
+.template .row p{
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align:center;
+}
+/* Template-container ended */
+
+/* About us container started */
+.aboutuscontainer{
+    width: 109%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutuscontainer .aboutus{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* background-color: brown;    */
+}
+.aboutuscontainer .aboutus h5{
+    text-align:center; 
+}
+.aboutuscontainer .aboutus p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.aboutuscontainer .progress-container{
+    width: 90%;
+    height: auto;
+    margin:auto;
+    /* background-color: chocolate; */
+    padding-top: 0px;
+    padding-left: 0px;  
+}
+/* About us container ended */
+
+/* Score container started */
+.scorecontainer{
+    width: 109%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.scorecontainer .score{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* background-color: orange; */
+}
+.scorecontainer .score .record{
+    width: 150px;
+    height: auto;
+    border: 0.2px solid darkblue;
+    line-height: 40px;
+}
+.scorecontainer .score .record span{
+    font-size:2.2em;
+}
+.scorecontainer .score .record h5{
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+/* SCORE CONTAINER ENDED */
+/* image container started */
+.siximgcontainer{
+    width: 109%;
+    margin: auto;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color:brown; */
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.siximgcontainer img{
+    margin: 30px;
+    width: 120px;
+    height: auto;
+}
+/* image container ended */
+/* lftblog container started */
+.lftblogcontainer{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-left:60px;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.lftblogcontainer span{
+     font-size: 2em;
+     color: rgb(3, 3, 46);
+     padding-top: 10px;     
+}
+.lftblogcontainer .row{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.lftblogcontainer .my-lftb-card{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.lftblogcontainer .my-lftb-card .card-title{
+    text-align:center;
+}
+.lftblogcontainer .my-lftb-card p{
+    text-align: center;  
+}
+/* lftblog container started */
+/* Subletter container started */
+.subletter{
+    width: 109%;
+}
+.subletter img{
+    width: 109%;
+    height: 600px;
+}
+.subletter .newsletter .sub{
+    width: 300px;
+    margin: auto;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.subletter .newsletter h2{
+    font-size: 2.1em;
+}
+.subletter .newsletter .plorem{
+    width: 300px;
+    margin: auto;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+.subletter .lettersbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subletter .lettersbtn .btnone, .subletter .lettersbtn .btntwo{
+    width: 300px;
+    margin: 20px 0px 0px 0px;
+} 
+/* Subletter container ended */
+
+/* Testimonials container started */
+.testimonials{
+    width: 109%;
+    height: auto;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.testimonials .row {
+    width: 88%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.testimonials .moni{
+    width: 300px;
+    margin:auto;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.testimonials .moni p{
+    line-height: 20px;
+}
+/* Testimonials container ended */
+/* Footer container started */
+.footer{
+    width: 109%;
+    height: auto;
+    /* background-color: darkseagreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .theend{
+    width:69%;
+    height: 60px;
+    /* background-color: wheat; */
+    text-align:center;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+/* Footer container ended */
+}
